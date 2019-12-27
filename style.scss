@@ -1,0 +1,49 @@
+#buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+    background: rgba(0,0,0,0.1);
+    padding-top: 100px;
+
+    .button {
+        height: 30px;
+        width: 30px;
+        margin: 3px;
+        background: rgba(0,0,0,0.3);
+        color: white;
+        text-align: center;
+        border: 2px solid rgba(0,0,0,0);
+    }
+}
+
+.pressed {
+   transform: scale(1.1);
+}
+
+.green {
+    background: green !important;
+}
+
+.red {
+    background: red !important;
+}
+
+.yellow {
+    background: yellow !important;
+}
+
+.blue {
+    background: blue !important;
+}
+
+.orange {
+    background: orange !important;
+}
+
+.strumUp, .strumDown {
+    background: black !important;    
+}
+
+
+
